@@ -2,7 +2,7 @@
 
 -- incleir la libreria jwt de firebase
 <br>
-//(composer require firebase/php-jwt)
+// --> composer require firebase/php-jwt
 
 
 https://www.youtube.com/watch?v=wdRsvApH5mc&list=PLi03S8zRucMCae0C5sYxUY205IqeRf4dA&index=1

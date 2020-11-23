@@ -8,4 +8,6 @@
 <br>
 // --> npm install
 
+-- importar base de datos en mysql (sob.sql)
+
 https://www.youtube.com/watch?v=wdRsvApH5mc&list=PLi03S8zRucMCae0C5sYxUY205IqeRf4dA&index=1

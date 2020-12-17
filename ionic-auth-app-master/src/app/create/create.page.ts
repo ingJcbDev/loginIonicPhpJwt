@@ -17,7 +17,10 @@ export class CreatePage {
       Authorization: 'Bearer ' + token
     });
 
-    this.http.post(`http://localhost/DEV/ionic_login_php_mysql/php-auth-api-master/api/create`, 'body', { headers }).subscribe(console.log);
+    // this.http.post(`http://localhost/DEV/loginIonicPhpJwt/php-auth-api-master-postgresql/api/create`, 'body', { headers }).subscribe(console.log);
+    // this.http.post(`http://localhost/DEV/loginIonicPhpJwt/php-auth-api-master-mysql/api/create`, 'body', { headers }).subscribe(console.log);
+
+    this.http.post(`http://localhost/DEV/loginIonicPhpJwt/php-auth-api-master-mysql/api/create`, 'body', { headers }).subscribe(console.log);
   }
 
 }

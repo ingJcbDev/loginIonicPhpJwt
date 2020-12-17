@@ -8,7 +8,10 @@ import { map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class AuthService {
-  private url = 'http://localhost/DEV/ionic_login_php_mysql/php-auth-api-master/api';
+
+  private url = 'http://localhost/DEV/loginIonicPhpJwt/php-auth-api-master-mysql/api';
+  // private url = 'http://localhost/DEV/loginIonicPhpJwt/php-auth-api-master-postgresql/api';
+
   constructor(private http: HttpClient) { }
 
   register(user: User) {

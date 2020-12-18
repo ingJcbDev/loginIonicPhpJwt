@@ -11,7 +11,7 @@ export class CreatePage {
   constructor(private http: HttpClient) { }
 
   onCreate() {
-    // Do this on service. But for this demo lets do here
+    // Haga esto en servicio. Pero para esta demostración, hagámoslo aquí.
     const token = localStorage.getItem('token');
     const headers = new HttpHeaders({
       Authorization: 'Bearer ' + token
